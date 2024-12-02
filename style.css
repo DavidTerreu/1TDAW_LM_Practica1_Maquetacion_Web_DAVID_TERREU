@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Jockey One";
+}
+img{
+    max-width: 100%;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+nav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+#logonav{
+    width: 10%;
+    background-color: red;
+    padding: 5px;
+}
+header nav ul{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+nav ul a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul a:hover{
+    color: red;
+}
+ul li{
+    display: flex;
+    align-items: center;
+}
+ul li img{
+    width: 20%;
+    margin-right: 5px;
+}
+#mainrojo{
+    background-color: rgb(180, 0, 0);
+}
+.mainnegro{
+    background-image: url(./img/fondo-oscuro.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+section#banner{
+    background-image: url(./img/portada.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 95vh;
+}
+section#titulo{
+    height: 35vh;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/fondo-negro-transp.png);
+}
+#titulo div{
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+#titulo h1{
+    font-size: 60px;
+    color: yellow;
+}
+#titulo h2{
+    font-size: 40px;
+}
+#titulo p{
+    font-size: 20px;
+}
+#personajes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#personajes h2{
+    color: yellow;
+}
+#personajes a{
+    font-size: 25px;
+    color: white;
+}
+#personajes a:hover{
+    color: red;
+}
+.gifsinicio{
+    width: 40%;
+}
+.textoPersonajes{
+    width: 75vh;
+    height: 35vh;
+    font-size: 35px;
+    margin-right: 300px;
+    background-size: cover;
+}
+#mundo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#mundo h2{
+    color: yellow;
+}
+#mundo a{
+    font-size: 25px;
+    color: white;
+}
+#mundo a:hover{
+    color: red;
+}
+.textoMundo{
+    width: 75vh;
+    height: 35vh;
+    font-size: 35px;
+    margin-left: 300px;
+    background-size: cover;
+}
+#batalla{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+#batalla h2{
+    color: yellow;
+}
+#batalla a{
+    font-size: 25px;
+    color: white;
+}
+#batalla a:hover{
+    color: red;
+}
+.textoBatalla{
+    width: 75vh;
+    height: 35vh;
+    font-size: 35px;
+    margin-right: 300px;
+    background-size: cover;
+}
+#expansion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+#expansion h2{
+    color: yellow;
+    font-size: 35px;
+    border-top: 2px solid white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#expansion a{
+    font-size: 25px;
+    color: white;
+}
+#expansion a:hover{
+    color: red;
+}
+footer{
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+footer a{
+    color: white;
+}
+footer div{
+    display: flex;
+    align-items: center;
+}
+footer img{
+    width: 10%;
+}
+footer p{
+    padding: 0px 15px;
+}
+
+/*PERSONAJES*/
+
+#artePersonajes{
+    display: flex;
+    justify-content: center;
+}
+#noah{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#lanz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#sena{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#eunie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#taion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#descripcionPersonajes{
+    font-size: 30px;
+}
+.textoiconkeves{
+    width: 80vh;
+    height: 35vh;
+    padding-top: 100px;
+    background-image: url(./img/logo-keves.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.textoiconagnus{
+    width: 80vh;
+    height: 35vh;
+    padding-top: 100px;
+    background-image: url(./img/logo-agnus.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#heroes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+#heroes h2{
+    color: yellow;
+    font-size: 80px;
+}
+#heroes p{
+    font-size: 35px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+#heroes img{
+    margin-bottom: 50px;
+}
+.textoheroes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*MUNDO*/
+
+#arteMundo{
+    display: flex;
+    justify-content: center;
+}
+#descripcionaionios{
+    font-size: 30px;
+}
+#keves{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+#agnus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+#aionios{
+    display: flex;
+    justify-content: center;
+}
+#aioniosworld{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.textoKA{
+    width: 80vh;
+    height: 35vh;
+    padding-top: 50px;
+    background-image: url(./img/fondo-negro-transp.png);
+    background-size: cover;
+}
+.textoKA h2{
+    color: yellow;
+}
+.textoaionios{
+    width: 100vh;
+    height: 35vh;
+    padding-top: 30px;
+    text-align: center;
+    background-image: url(./img/fondo-negro-transp.png);
+    background-size: cover;
+}
+.textoaionios h2{
+    color: yellow;
+}
+
+/*COMBATE*/
+
+#arteCombate{
+    display: flex;
+    justify-content: center;
+}
+#opcionescombate{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#artescombate div:first-child{
+    padding-left: 50px;
+}
+#clasescombate div:first-child{
+    padding-left: 50px;
+}
+#cadenacombate div:first-child{
+    padding-left: 50px;
+}
+#fusioncombate div:first-child{
+    padding-left: 50px;
+}
+.textocombate{
+    text-align: center;
+    width: 80vh;
+    height: 35vh;
+}
+.textocombate h2{
+    color: yellow;
+    font-size: 60px;
+}
+
+/*EXPANSION*/
+
+#cabeceraexpansion{
+    display: flex;
+    justify-content: center;
+}
+#cabeceraexpansion img{
+    width: 100%;
+}
+#compraya{
+    margin-bottom: 100px;
+}
+#compraya a{
+    font-size: 50px;
+    color: white;
+}
+#compraya a:hover{
+    font-size: 50px;
+    color: red;
+}
+.textoFR{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*LOGIN*/
+
+#mynintendo{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+#mynintendo img{
+    width: 15%;
+    margin-top: 25px;
+}
+#login{
+    height: 30vh;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+#login h1{
+    font-size: 40px;
+}
+.user{
+    margin-bottom: 5px;
+    margin-right: 75px;
+    padding-left: 20px;
+}
+.user label{
+    margin-right: 5px;
+}
+.pass{
+    margin-right: 75px;
+}
+.pass label{
+    margin-right: 5px;
+}
+#mainrojo div{
+    display: flex;
+    justify-content: center;
+}
+.caramario{
+    margin-top: 50px;
+}
+
+/*CONTACTO*/
+
+#contacto{
+    height: 30vh;
+    width: 40%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 25px;
+}
+#cajatexto{
+    display: flex;
+    align-items: start;
+    margin-top: 10px;
+}
+#cajatexto textarea{
+    height: 15vh;
+    width: 45vh;
+    margin-bottom: 5px;
+}
+#cajatexto label{
+    margin-right: 5px;
+}
+#cajaname{
+    margin-top: 10px;
+}
+#cajaname input{
+    width: 45vh;
+}
+#cajaname label{
+    margin-right: 5px;
+    padding-left: 5px;
+}
+#cajamail{
+    margin-top: 10px;
+}
+#cajamail input{
+    width: 45vh;
+}
+#cajamail label{
+    margin-right: 5px;
+    padding-left: 20px;
+}
+.botonenviar{
+    margin-top: 5px;
+}
+.botonenviar input{
+    padding: 5px;
+    width: 100px;
+}
+
+/*COMPRAR*/
+
+#comprarXC3{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#comprarXC3 img{
+    margin-bottom: 100px;
+}
+#comprarXC3 form{
+    margin-top: 30px;
+}
+#comprarXC3 input{
+    font-size: 30px;
+}
+.textocompra{
+    color: white;
+    width: 80vh;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.textocompra form input{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}

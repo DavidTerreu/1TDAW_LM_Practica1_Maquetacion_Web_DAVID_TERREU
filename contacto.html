@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacto</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div id="logonav">
+                    <img src="./img/Logo-sin-fondo.png" alt="">
+                </div>
+                <ul>
+                    <li><img src="./img/icono-inicio.png" alt=""><a href="./index.html">Inicio</a></li>
+                    <li><img src="./img/icono-carrito.png" alt=""><a href="./comprar.html">Tienda</a></li>
+                    <li><img src="./img/icono-login.png" alt=""><a href="./login.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="mainrojo">
+            <section id="mynintendo">
+                <img src="./img/mynintendo-logo.png" alt="">
+            </section>
+            <section id="contacto">
+                <h2>CONTACTO</h2>
+                <form action="./registro.php" method="get">
+                    <div id="cajaname">
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="name" placeholder="Introduce tu nombre*">
+                    </div>
+                    <div id="cajamail">
+                        <label for="correo">Email:</label>
+                        <input type="email" name="correo" placeholder="Introduce tu email*">
+                    </div>
+                    <div id="cajatexto">
+                        <label for="consulta">Consulta:</label>
+                        <textarea type="text" name="consulta" placeholder="Escríbenos la duda que necesitas solucionar*"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="políticas">&nbsp;Acepto las políticas de privacidad.</div>
+                    </div>
+                    <div class="botonenviar">
+                        <input type="submit" value="Enviar"></div>
+                    </div>
+                </form>
+            </section>
+            <div class="caramario">
+                <img src="./img/icon-mario.png" alt="">
+            </div>
+        </main>
+        <footer>
+            <div>
+                <img src="./img/Logo-sin-fondo.png" alt="">
+                <p>© Nintendo / MONOLITHSOFT</p>
+                <a href="./contacto.html">Contacto</a>
+            </div>
+        </footer>
+    </body>
+</html>
